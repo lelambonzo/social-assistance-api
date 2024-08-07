@@ -22,7 +22,11 @@ Before you begin, ensure you have the following installed:
 
    Ensure you have a MySQL database set up and create a database named `social_assistance_db`. Import the provided SQL schema to set up the database structure.
 
-3. **Update Database Configuration**
+   **ER Diagram**
+
+   ![ERD](https://github.com/user-attachments/assets/d56376a5-ff6c-475e-bcb2-63a7a159fc3f)
+
+4. **Update Database Configuration**
 
    Edit the `src/main/resources/application.properties` file to match your database settings:
 
@@ -36,7 +40,7 @@ Before you begin, ensure you have the following installed:
 
    Replace `yourusername` and `yourpassword` with your MySQL credentials.
 
-4. **Build the Application**
+5. **Build the Application**
 
    Use Maven to build the application:
 
@@ -44,7 +48,7 @@ Before you begin, ensure you have the following installed:
    mvn clean install
    ```
 
-5. **Run the Application**
+6. **Run the Application**
 
    Start the Spring Boot application:
 
